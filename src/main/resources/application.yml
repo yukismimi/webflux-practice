@@ -1,0 +1,8 @@
+spring:
+  devtools:
+    add-properties: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
